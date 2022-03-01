@@ -1,0 +1,14 @@
+[
+    {
+      "name": "project1",
+      "live": "https://app.herokuapp.com/whatever",
+      "git":" https://github.com/nabiladigo/reverse-engineer",
+      "image": "http://www.imgur.com/pictureofproject.png"
+    },
+    {
+      "name": "project2",
+      "live": "https://app.netlify.app/whatever",
+      "git": "https://github.com/nabiladigo/Project-Wayfarer",
+      "image": "http://www.imgur.com/pictureofproject.png"
+    }
+  ]
