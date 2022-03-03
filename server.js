@@ -32,6 +32,14 @@ app.get("/about", (req,res) =>{
     // send about via Json
     res.json(about);
 });
+app.get("/contact", (req,res) =>{
+    // send about via Json
+    res.json(contact);
+});
+app.get("/resume", (req,res) =>{
+    // send about via Json
+    res.json(resume);
+});
 
 //declare a variable for our port number
 const PORT = process.env.PORT || 4000;
