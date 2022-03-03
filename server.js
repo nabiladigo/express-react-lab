@@ -22,6 +22,10 @@ app.get("/projects", (req, res) =>{
     // send projectes via JSON
     res.json(projects);
 });
+app.get("/home", (req, res) =>{
+    // send projectes via JSON
+    res.json(homes);
+});
 
 // route for retrieving about info
 app.get("/about", (req,res) =>{
