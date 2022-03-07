@@ -43,7 +43,7 @@ app.get("/resume", (req,res) =>{
 });
 
 //declare a variable for our port number
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 5000;
 
 // turn on the server listener
 app.listen(PORT, () => console.log(`listening on port ${PORT}`));
